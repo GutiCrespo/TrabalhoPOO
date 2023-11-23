@@ -1,0 +1,12 @@
+{
+  "name": "gestaofinanceira",
+  "version": "1.0.0",
+  "description": "Projeto de Programação Orientada a Objetos da Faculdade SENAC de Pelotas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
