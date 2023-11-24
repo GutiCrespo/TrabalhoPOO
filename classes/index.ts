@@ -8,12 +8,7 @@ import GastosVariaveis from "./GastosVariaveis";
 const gastoFixo = new GastosFixos("Aluguel", 1500, 7);
 const gastoParcelado = new GastosParcelados("Compras Online", 500, 7, 3);
 const gastoRegular = new GastosRegulares("Internet", 100, 7, "Mensal");
-const gastoVariavel = new GastosVariaveis(
-  "Restaurante",
-  50,
-  7,
-  "Almoço com amigos"
-);
+const gastoVariavel = new GastosVariaveis("Restaurante", 50, 7, "Almoço com amigos");
 
 gastoFixo.exibirGasto();
 gastoParcelado.exibirGasto();
