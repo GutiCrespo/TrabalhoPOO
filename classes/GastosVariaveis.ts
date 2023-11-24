@@ -1,11 +1,11 @@
 // gastosVariaveis.ts
-import GastosFixos from "./GastosFixos";
+import Gastos from "./Gastos";
 
-class GastosVariaveis extends GastosFixos {
+class GastosVariaveis extends Gastos {
   private descricao: string;
 
-  constructor(nome: string, valor: number, descricao: string) {
-    super(nome, valor);
+  constructor(nome: string, valor: number, mes: number, descricao: string) {
+    super(nome, valor, mes);
     this.descricao = descricao;
   }
 

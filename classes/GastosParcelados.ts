@@ -1,11 +1,11 @@
 // gastosParcelados.ts
-import GastosFixos from "./GastosFixos";
+import Gastos from "./Gastos";
 
-class GastosParcelados extends GastosFixos {
+class GastosParcelados extends Gastos {
   private numeroParcelas: number;
 
-  constructor(nome: string, valor: number, numeroParcelas: number) {
-    super(nome, valor);
+  constructor(nome: string, valor: number, mes: number, numeroParcelas: number) {
+    super(nome, valor, mes);
     this.numeroParcelas = numeroParcelas;
   }
 

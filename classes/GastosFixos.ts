@@ -1,11 +1,10 @@
 // gastosFixos.ts
-class GastosFixos {
-  protected nome: string;
-  protected valor: number;
+import Gastos from "./Gastos";
 
-  constructor(nome: string, valor: number) {
-    this.nome = nome;
-    this.valor = valor;
+class GastosFixos extends Gastos {
+
+  constructor(nome: string, valor: number, mes: number) {
+    super(nome, valor, mes)
   }
 
   public exibirGasto(): void {
