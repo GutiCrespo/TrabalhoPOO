@@ -7,11 +7,28 @@ class GastosFixos extends Gastos {
     super(nome, valor, mes)
   }
 
+  public adicionarGasto(nomeGasto: string): string {
+      const Teste = new GastosFixos(nomeGasto, 3, 3 )  
+      return(Teste._nome) 
+  }
+
+  // Teste = [
+  //   {
+  //     nome: "internet",
+  //     valor: 3,
+  //     mes: 3
+  //   }
+  // ]
+
   public exibirGasto(): void {
     console.log(
-      `Gasto Fixo - Nome: ${this.nome}, Valor: R$${this.valor.toFixed(2)}`
+      `Gasto Fixo - Nome: ${this._nome}, Valor: R$${this._valor.toFixed(2)}`
     );
   }
 }
 
 export default GastosFixos;
+
+
+
+
